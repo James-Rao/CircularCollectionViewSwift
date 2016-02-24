@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4832ED4A1C7D1D2600569DD7 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4832ED491C7D1D2600569DD7 /* Math.swift */; };
+		4832ED4C1C7D1FE600569DD7 /* PointObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4832ED4B1C7D1FE600569DD7 /* PointObj.swift */; };
 		48A38CE91C7D10020009F3CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A38CE81C7D10020009F3CE /* AppDelegate.swift */; };
 		48A38CEB1C7D10020009F3CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A38CEA1C7D10020009F3CE /* ViewController.swift */; };
 		48A38CEE1C7D10020009F3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A38CEC1C7D10020009F3CE /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		48A38CF61C7D10020009F3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A38CF41C7D10020009F3CE /* LaunchScreen.storyboard */; };
 		48A38D011C7D10030009F3CE /* CircularCollectionViewSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A38D001C7D10030009F3CE /* CircularCollectionViewSwiftTests.swift */; };
 		48A38D0C1C7D10030009F3CE /* CircularCollectionViewSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A38D0B1C7D10030009F3CE /* CircularCollectionViewSwiftUITests.swift */; };
+		48A38D1B1C7D11810009F3CE /* CircularCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A38D1A1C7D11810009F3CE /* CircularCollectionViewLayout.swift */; };
+		48A38D1F1C7D16CB0009F3CE /* CellRotateStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A38D1E1C7D16CB0009F3CE /* CellRotateStyle.swift */; };
+		48BAC0E01C7D722100A2F8AA /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0DF1C7D722100A2F8AA /* LabelCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4832ED491C7D1D2600569DD7 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		4832ED4B1C7D1FE600569DD7 /* PointObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointObj.swift; sourceTree = "<group>"; };
 		48A38CE51C7D10020009F3CE /* CircularCollectionViewSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularCollectionViewSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A38CE81C7D10020009F3CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48A38CEA1C7D10020009F3CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		48A38D071C7D10030009F3CE /* CircularCollectionViewSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularCollectionViewSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A38D0B1C7D10030009F3CE /* CircularCollectionViewSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewSwiftUITests.swift; sourceTree = "<group>"; };
 		48A38D0D1C7D10030009F3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A38D1A1C7D11810009F3CE /* CircularCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewLayout.swift; sourceTree = "<group>"; };
+		48A38D1E1C7D16CB0009F3CE /* CellRotateStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellRotateStyle.swift; sourceTree = "<group>"; };
+		48BAC0DF1C7D722100A2F8AA /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4832ED481C7D1D1400569DD7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4832ED491C7D1D2600569DD7 /* Math.swift */,
+				4832ED4B1C7D1FE600569DD7 /* PointObj.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		48A38CDC1C7D10020009F3CE = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +118,8 @@
 		48A38CE71C7D10020009F3CE /* CircularCollectionViewSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4832ED481C7D1D1400569DD7 /* Utility */,
+				48A38D191C7D114A0009F3CE /* CollectionViewLayout */,
 				48A38CE81C7D10020009F3CE /* AppDelegate.swift */,
 				48A38CEA1C7D10020009F3CE /* ViewController.swift */,
 				48A38CEC1C7D10020009F3CE /* Main.storyboard */,
@@ -126,6 +147,16 @@
 				48A38D0D1C7D10030009F3CE /* Info.plist */,
 			);
 			path = CircularCollectionViewSwiftUITests;
+			sourceTree = "<group>";
+		};
+		48A38D191C7D114A0009F3CE /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				48A38D1A1C7D11810009F3CE /* CircularCollectionViewLayout.swift */,
+				48A38D1E1C7D16CB0009F3CE /* CellRotateStyle.swift */,
+				48BAC0DF1C7D722100A2F8AA /* LabelCollectionViewCell.swift */,
+			);
+			name = CollectionViewLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +293,11 @@
 				48A38CEB1C7D10020009F3CE /* ViewController.swift in Sources */,
 				48A38CE91C7D10020009F3CE /* AppDelegate.swift in Sources */,
 				48A38CF11C7D10020009F3CE /* CircularCollectionViewSwift.xcdatamodeld in Sources */,
+				4832ED4A1C7D1D2600569DD7 /* Math.swift in Sources */,
+				48A38D1F1C7D16CB0009F3CE /* CellRotateStyle.swift in Sources */,
+				4832ED4C1C7D1FE600569DD7 /* PointObj.swift in Sources */,
+				48A38D1B1C7D11810009F3CE /* CircularCollectionViewLayout.swift in Sources */,
+				48BAC0E01C7D722100A2F8AA /* LabelCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +524,7 @@
 				48A38D121C7D10030009F3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48A38D131C7D10030009F3CE /* Build configuration list for PBXNativeTarget "CircularCollectionViewSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +533,7 @@
 				48A38D151C7D10030009F3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48A38D161C7D10030009F3CE /* Build configuration list for PBXNativeTarget "CircularCollectionViewSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +542,7 @@
 				48A38D181C7D10030009F3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
